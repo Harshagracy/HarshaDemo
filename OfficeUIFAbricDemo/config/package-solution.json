@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ui-fabric-examples-client-side-solution",
+    "id": "c9cde40f-6cc8-4f93-b8ef-38e5882cd251",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/ui-fabric-examples.sppkg"
+  }
+}
