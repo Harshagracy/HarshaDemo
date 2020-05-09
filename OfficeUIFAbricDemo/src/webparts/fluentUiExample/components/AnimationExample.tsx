@@ -6,37 +6,37 @@ export default class AnimationExample extends React.Component<any, any> {
   constructor(props: any, state: any) {
     super(props);
     this.state = {
-      rectClassName: styles.rect
+      rectangleClassName: "rectangle"
     }
   }
   private rotate90deg = () => {
     this.setState({
-      rectClassName: styles.rect + "  ms-rotate90deg"
+      rectangleClassName: "rectangle" + "  ms-rotate90deg"
     });
   }
   private slideDownOut10 = () => {
     this.setState({
-      rectClassName: styles.rect + "  ms-slideDownOut10"
+      rectangleClassName: "rectangle" + "  ms-slideDownOut10"
     });
   }
   private fadeIn500 = () => {
     this.setState({
-      rectClassName: styles.rect + "  ms-fadeIn500"
+      rectangleClassName: "rectangle" + "  ms-fadeIn500"
     });
   }
   private fadeOut500 = () => {
     this.setState({
-      rectClassName: styles.rect + "  ms-fadeOut500"
+      rectangleClassName: "rectangle" + "  ms-fadeOut500"
     });
   }
   private slideLeftIn400 = () => {
     this.setState({
-      rectClassName: styles.rect + "  ms-slideLeftIn400"
+      rectangleClassName: "rectangle" + "  ms-slideLeftIn400"
     });
   }
   private reset = () => {
     this.setState({
-      rectClassName: styles.rect 
+      rectangleClassName: "rectangle" 
     });
   }
   public render(): React.ReactElement<any> {
@@ -44,7 +44,7 @@ export default class AnimationExample extends React.Component<any, any> {
       <React.Fragment >
         <div className="ms-Grid-row">
           <div className="ms-Grid-col ms-u-sm6 ">
-            <div className={this.state.rectClassName}>
+            <div className={this.state.rectangleClassName}>
             </div>
           </div>
           <div className="ms-Grid-col ms-u-sm6">

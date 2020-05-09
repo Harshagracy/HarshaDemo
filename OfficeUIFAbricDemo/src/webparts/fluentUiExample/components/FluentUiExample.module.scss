@@ -8,20 +8,11 @@
   .hebrew {
     @include ms-font-face('Segoe UI Web (Hebrew)', 'segoeui-hebrew');
   }
-  
-  .bigfont {
-    font-size: $ms-font-weight-semibold;
-  }
-
-  .rect {
+  .rectangle{
     width: 100px;
     height: 200px;
     background: green;
     background-color: green;
-    cursor: 'pointer';
-    display: 'flex';
-    overflow: 'hidden';
-    position: 'relative';
   }
 
   .iconStyles {
@@ -119,5 +110,11 @@
     text-align: center;
     color: white;
     background-color: gray;
+  }
+  .rectangle{
+    width: 100px;
+    height: 200px;
+    background: green;
+    background-color: green;
   }
 }
